@@ -134,4 +134,5 @@ dotnet publish -c release -r osx-x64
 
 ## 阅读下节
 
-[启动 NEO-CLI]()
+[配置与启动 NEO-CLI](config.md)
+
