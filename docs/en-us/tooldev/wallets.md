@@ -60,7 +60,7 @@ Address is a string of numbers and letters after a series of transformations of 
 
 1. Build the address script contract, the script format:
 
-    `0x21` (1 byte, representing `OptCode.PUSHBYTES21`) + compressed public key (33 bytes) + `0xac` (1 byte, representing `OptCode.CHECKSIG`)
+    `0x21` (1 byte, representing `OptCode.PUSHBYTES33`) + compressed public key (33 bytes) + `0xac` (1 byte, representing `OptCode.CHECKSIG`)
 
 2. Calculate script hash of the contract (20 bytes, obtained from once SHA256, then once RIPEMD160 hash operation of the script). 
 
